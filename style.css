@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:wght@200;400;500;900&family=Manrope:wght@200;400&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
+/* font-family: 'Inter Tight', sans-serif;
+font-family: 'Manrope', sans-serif; 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', cursive;
+*/
+
+body {
+    margin: 50px;
+    /* background: linear-gradient(0.25turn, #e3b2eb, #d093e9, #f37bf1); */
+    background-color: #194420;
+    height: 100vh;
+}
+
+.content p {
+    margin: 15px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #484848;
+    letter-spacing: 1px;
+    font-family: 'Inter Tight', sans-serif;
+
+}
+
+header {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul li {
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: end;
+    /* display: flex; */
+}
+
+li img {
+    width: 200px;
+}
+
+.number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-right: 50px;
+    color: #194420;
+}
+
+header .number {
+    text-align: end;
+    margin-right: 10px;
+}
+
+.body-stylist {
+    background-color: rgb(240, 240, 240);
+    height: 88vh;
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    height: 60vh;
+    width: 80%;
+    background-color: rgba(48, 179, 15, 0.124);
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+button {
+    height: 50px;
+    width: 180px;
+    letter-spacing: 1px;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #194420;
+    color: #fff;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    transition-duration: 0.2s;
+    border: solid 1px #000000;
+}
+
+button:hover {
+    background-color: #dcd802f8;
+    color: #194420;
+    transition-duration: 0.2s;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logos-forn {
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.logo {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    align-content: flex-start;
+
+}
+
+/*FOOTER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+footer {
+    height: 20vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    flex-flow: wrap;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer ul li {
+    width: 33%;
+    align-items: center;
+}
+
+.content-footer {
+    width: 100%;
+}
+
+.content-footer p {
+    width: 90%;
+    font-family: 'Bebas Neue', cursive;
+    color: #484848;
+    font-size: 20px;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+.icons {
+    width: 74.4%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid #c3c3c3;
+}
+
+.icons ion-icon {
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.icons ion-icon:hover {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.logo1 {
+    height: 30px;
+    align-items: center;
+    display: flex;
+    /* margin: 20px; */
+}
+
+.content-footer2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #484848;
+    font-size: 20px;
+    /* margin: 10px; */
+    letter-spacing: 1px;
+}
+
+.content-footer2 p {
+    margin: 10px;
+}
+
+.end-text p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 12px;
+}
